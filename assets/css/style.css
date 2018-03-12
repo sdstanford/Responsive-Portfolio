@@ -353,6 +353,12 @@ position:relative;
 }
 
 @media only screen and (max-width:768px){
+    #sds{
+        width:200px;
+        height:200px;
+        margin: 10px;
+        float: left;
+    }
     #primary-modified{ 
         width:85%;
         margin-left:10px;
@@ -368,6 +374,7 @@ position:relative;
         margin-bottom:100px;
         float:left;
         padding:20px;
+        text-align:left;
     }
 
 }
@@ -376,5 +383,78 @@ position:relative;
     header{
         position:static;
     }
+
+    #sitename{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        background-color:#4aaaa5;
+        font-size: 30px;
+        color:#ffffff;
+        width: 100%;
+        text-align: center;
+        margin:none;
+        float:none;
+        padding:none;
+        margin-left:0;
+    }
+
+    #nav{
+        float: none;
+        text-align:center;
+        padding: 20px;
+    }
+
+    .navitem{
+        padding-right:60px;
+    }
+
+    #sds{
+        width:100%;
+        height:auto;
+        float:none;
+    }
+
+    #primary-modified{ 
+        width:85%;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:20px;
+        margin-bottom:20px;
+        padding:10px;
+        padding-right:30px;
+    }
+    #connectbox{
+        width:85%;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:none;
+        margin-bottom:100px;
+        float:left;
+        padding:20px;
+        text-align:left;
+    }
+
+    .img{
+        width:100%;
+        height:auto;
+    }
+    #block1{
+        width:100%;
+    }
+    #block2{
+        width:100%;
+    }
+    #block3 {
+        width:100%;
+    }
+    #block4 {
+        width:100%;
+
+    }
+    #block5{
+        width:100%;
+    }
+
+
+
 
 }
