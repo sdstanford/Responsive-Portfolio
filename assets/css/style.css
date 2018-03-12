@@ -1,0 +1,364 @@
+body {
+    font-family :Arial, Helvetica, sans-serif;
+    color:#777777;
+    background-image: url(https://www.leisurevillas.com/wp-content/uploads/2014/06/Dollarphotoclub_52868738a.jpg) 
+
+}
+
+#navbar{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-width: 2px;
+    overflow: auto;
+}
+
+#nav{
+    float: right;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.navitem{
+    background-color:#ffffff;
+    border:none;
+    color:#777777;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top:10px;
+}
+
+.navitem:hover{
+    background-color:#777777;
+    color:#ffffff;
+}
+
+#sitename{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#4aaaa5;
+    font-size: 30px;
+    color:#ffffff;
+    padding:20px;
+    width: 18%;
+    text-align: center;
+    margin-left: 50px;
+    float: left;
+}
+
+ #primary   {
+    background-color:#ffffff;
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    line-height:1.5;
+    overflow:auto;
+    position:relative;
+}
+
+#section{
+    overflow:auto;
+}
+
+#primary-modified   {
+    background-color:#ffffff;
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    margin-right:20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    line-height:1.5;
+    float: left;
+}
+
+.line{
+    height: 2px;
+    color:#777777;
+}
+
+#sds{
+    margin: 10px;
+    float: left;
+}
+
+#pgph{
+    margin: 15px;
+}
+
+#articlehead {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#connectbox{
+
+    padding:20px;
+    text-align: center;
+    background-color:#ffffff;
+    width: 15%;
+    height: 20%;
+    float:right;
+    margin-top:20px;
+    margin-right:70px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+}
+
+.field{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+#minihead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    font-size: 25px;
+}
+
+#button{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    font-size: 18px;
+    padding:15px 30px;
+    margin-top:20px;
+}
+
+.plabels{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:200px;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    position:relative;
+    z-index:3;
+}
+
+#topwrapper{
+    width:100%;
+    overflow:auto;
+}
+#block1{
+float:left;
+margin-right:40px;
+margin-left:20px;
+margin-top:20px;
+position:relative;
+}
+
+#hangman{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:200px;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:10;
+    margin-bottom:20px;
+}
+
+#block2{
+float:left;
+margin-top:20px;
+position:relative;
+}
+
+#RPG{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:200px;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:10;
+    margin-bottom:20px;
+
+}
+
+#middlewrapper{
+    width:100%;
+}
+
+#block3{
+float:left;
+margin-left:20px;
+margin-right:40px;
+margin-top:20px;
+position:relative;
+}
+
+#trivia{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:200px;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:10;
+    margin-bottom:20px;
+
+}
+
+#block4{
+float:left;
+margin-top:20px;
+position:relative;
+}
+
+#widget{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:200px;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:10;
+    margin-bottom:20px;
+} 
+
+
+#bottomwrapper{
+    width:100%;
+    overflow:auto;
+}
+
+#block5{
+    float:left;
+    margin-left:20px;
+    margin-right:40px;
+    margin-top:20px;
+    position:relative;
+}
+
+#rock{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:10;
+    margin-bottom:20px;
+}
+
+#footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+
+}
+#bottomfooter{
+    height: 40px;
+    background-color: #777777;;
+    color:#ffffff;
+    font-size: 10px;
+    text-align: center;
+    padding-top:25px;
+}
+
+#topfooter{
+    height: 5px;
+    background-color: #4aaaa5;
+}
+
+
+@media only screen and (max-width:980px){
+    
+    #primary-modified{
+        width:400px;
+        margin-left:70px;
+        padding-right:40px;
+        margin-right:50px;
+    }
+
+    #sds{
+        width:100%;
+        float:none;
+    }
+
+    #connectbox{
+        width:200px;
+        margin-right:70px;
+    }
+
+    #sitename{
+        font-size:20px;
+    }
+
+    #block1{
+        position:relative;
+        left:0;
+        top:0;
+        margin-left:10px;
+    }
+    #block2{
+        position:relative;
+        left:0;
+        top:0;
+        margin-left:10px;
+    }
+    #block3 {
+        position:relative;
+        left:0;
+        top:0;
+        margin-left:10px;
+    }
+    #block4 {
+        position:relative;
+        left:0;
+        top:0;
+        margin-left:10px;
+    }
+    #block5{
+        position:relative;
+        left:0;
+        top:0;
+        margin-left:10px;
+    }
+
+    #messagebox{
+        height:200px;
+    }
+
+}
+
+@media screen (max-width=768px){
+
+}
+
+@media screen (max-width=640px){
+    header{
+        position:static;
+    }
+
+}
